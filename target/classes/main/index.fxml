@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="374.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <MenuBar>
+            <menus>
+                <Menu text="_Datoteka">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Odpri" />
+                        <MenuItem mnemonicParsing="false" text="Shrani" />
+                        <MenuItem mnemonicParsing="false" text="Izhod" />
+                    </items>
+                </Menu>
+                <Menu text="_Uredi">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Pobriši" />
+                    </items>
+                </Menu>
+                <Menu text="_Pomoč">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Avtor" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+      <ToolBar prefHeight="40.0" prefWidth="200.0">
+        <items>
+          <Button mnemonicParsing="false" text="Odpri" />
+            <Button mnemonicParsing="false" text="Shrani" />
+            <Button mnemonicParsing="false" text="Izhod" />
+            <Button mnemonicParsing="false" text="Pobriši" />
+        </items>
+      </ToolBar>
+        <Accordion prefHeight="218.0" prefWidth="273.0">
+            <panes>
+                <TitledPane animated="false" text="Zgodovina">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                    </content>
+                </TitledPane>
+                <TitledPane animated="false" prefHeight="85.0" prefWidth="374.0" text="Dnevnik">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                    </content>
+                </TitledPane>
+                <TitledPane animated="false" minWidth="-Infinity" prefHeight="242.0" prefWidth="374.0" text=" Kalkulator">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <GridPane layoutX="28.0" layoutY="76.0" prefHeight="170.0" prefWidth="316.0">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="53.0" minHeight="10.0" prefHeight="51.0" vgrow="SOMETIMES" />
+                                        <RowConstraints maxHeight="66.0" minHeight="10.0" prefHeight="48.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="39.0" minHeight="10.0" prefHeight="39.0" vgrow="SOMETIMES" />
+                                    </rowConstraints>
+                           <children>
+                              <Button mnemonicParsing="false" text="Button" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="2" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                           </children>
+                                </GridPane>
+                        <TextField layoutX="18.0" layoutY="40.0" prefHeight="25.0" prefWidth="336.0" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </TitledPane>
+            </panes>
+        </Accordion>
+    </children>
+</VBox>
